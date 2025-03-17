@@ -1,0 +1,91 @@
+/* General body styling to ensure consistent font and spacing */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    display: flex; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f9f9f9; /* Light grey background */
+}
+
+/* Form container styling */
+.formcontainer {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px; /* Space inside the container */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    width: 100%;
+    max-width: 500px; /* Limit maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Heading styling */
+h1 {
+    text-align: center; /* Center align heading */
+    color: #333; /* Dark grey text color */
+}
+
+/* Text field container styling */
+.textfield {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+/* Label styling */
+label {
+    display: block; /* Ensure labels are on separate lines */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full-width inputs */
+    padding: 10px; /* Comfortable padding */
+    border: 1px solid #ccc; /* Default grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Error styling for invalid fields */
+input.error {
+    border: 2px solid red; /* Red border to indicate error */
+    background-color: #ffe6e6; /* Light red background */
+}
+
+/* Error message styling */
+.error-message {
+    color: red; /* Red text for visibility */
+    font-size: 0.9em; /* Slightly smaller text size */
+    margin-top: 5px; /* Space between field and error message */
+}
+
+/* Checkbox section styling */
+.checkbox {
+    margin-bottom: 10px; /* Space between checkboxes */
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #007bff; /* Blue background for submit */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+button[type="reset"] {
+    background-color: #dc3545; /* Red background for reset */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+/* Button hover effects for better UX */
+button:hover {
+    opacity: 0.9; /* Slight transparency for hover effect */
+}
